@@ -1,0 +1,5 @@
+x=rnorm(100)
+y=rnorm(100)
+
+linearmodel=lm(y~x)
+summary(linearmodel)
